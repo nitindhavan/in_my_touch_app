@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This app requires the following permissions to function properly:"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Access Coarse Location\n\nAllows the app to access your approximate location for better user experience."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Access Background Location\n\nEnables the app to access your location in the background for certain features."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Internet\n\nRequired for the app to connect to the internet and fetch data."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Access Network State\n\nAllows the app to check the network connectivity status."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Request Ignore Battery Optimizations\n\nEnables the app to run in the background without being optimized for battery usage."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Read Contacts\n\nAllows the app to read your contacts for enhanced functionality."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Read Call Log\n\nPermits the app to read your call log for specific features."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Read External Storage\n\nAllows the app to read external storage for certain functionalities."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Read Media Images\n\nPermits the app to read media images from your device."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Read SMS\n\nAllows the app to read your SMS messages for certain features."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Receive SMS\n\nEnables the app to receive SMS messages for specific functionalities."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/requestPermissionsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grant Permissions"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
